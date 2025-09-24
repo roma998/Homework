@@ -3,8 +3,8 @@
 
 int main() {
 	int count = 0;
-	for (int i = 0; i <= 999999; ++1) {
-		int n = i;
+    for (int i = 0; i <= 999999; ++i) {
+        int n = i;
 		int d5 = n % 10; n /= 10;
 		int d4 = n % 10; n /= 10;
 		int d3 = n % 10; n /= 10;
@@ -23,4 +23,3 @@ int main() {
 	std::cout << "Total lucky tickets: " << count << std::endl;
 	return 0;
 }
-

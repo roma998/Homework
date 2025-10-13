@@ -20,6 +20,6 @@ int main() {
 			++count;
 		}
 	}
-	std::cout << "Total lucky tickets: " << count << std::endl;
+	std::cout << "Всього щасливих квитків: " << count << std::endl;
 	return 0;
 }
